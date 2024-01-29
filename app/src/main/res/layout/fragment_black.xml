@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#632020"
+    tools:context=".Fragment_black">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bluee"
+        android:backgroundTint="#271515">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="383dp"
+            android:layout_height="214dp"
+            android:text="-> Jurusan yang mempelajari teknik mengolah dan menyajikan makanan. Belajar di jurusan ini tak hanya belajar bagaimana mengolah makanan saja. Namun kamu juga belajar bagaimana menguasai estetika atau keindahan dari makanan. Tak hanya itu, jurusan tata boga juga belajar bagaimana mengolah makanan dengan memenuhi nilai gizi. "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.428"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.941" />
+
+        <TextView
+            android:layout_width="374dp"
+            android:layout_height="59dp"
+            android:text="Kuliner"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.594"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.074" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="339dp"
+            android:layout_height="240dp"
+            android:layout_marginStart="36dp"
+            android:src="@drawable/kuliner"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.336" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
